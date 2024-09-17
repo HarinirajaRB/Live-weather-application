@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+.head{
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    background :linear-gradient(45deg , rgb(245, 146, 163), rgb(122, 208, 242));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+body{
+    background: linear-gradient(to bottom, rgb(254, 204, 186) , rgb(153, 214, 238)  );
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    
+}
+.card{
+    margin : 60px auto 0;
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#5cdbf49c,#367b8fb9);
+    color: #fff;
+    /* margin: 25px auto 0; */
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.search input{
+    height: 28px;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    background-color: #e2fff7; 
+    color: #555;
+    height: 10px 25px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 5px;
+    font-size: 18px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    background-color: #e2fff7;
+    backface-visibility: visible;
+    color: #555;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+.search button img{
+    width: 30px;
+    border: 0;
+    border-radius: 50%;
+    justify-items: center;
+}
+.search button :hover{
+    background-color: #636665;
+}
+.weathericon{
+    margin-top: 20px;
+    width: 170px;
+    height: 100px;
+    border:  solid;
+    border-width: 3px;
+    border-color: #fff;
+    border-radius: 25%;
+}
+.weather h1{
+    margin-top: 20px;
+    font-size: 80px;
+    font-weight:500 ;
+}
+.weather h2{
+    margin-top: 20px;
+    font-size: 45px;
+    font-weight:400;
+    margin-top: -10px;
+}
+.detials{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+    
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+
+}
+.humidity,wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+footer{
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    
+}
+footer a{
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
